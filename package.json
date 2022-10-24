@@ -1,0 +1,23 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vite-plugin-solid": "^2.3.10",
+    "vite-plugin-static-copy": "^0.9.0"
+  },
+  "dependencies": {
+    "kissfft-wasm": "^2.0.0",
+    "solid-js": "^1.6.0"
+  }
+}
