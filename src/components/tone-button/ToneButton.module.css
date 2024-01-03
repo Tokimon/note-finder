@@ -1,0 +1,43 @@
+.Selector {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px;
+}
+
+.Selector ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.Selector .selected {
+  color: black;
+}
+
+select {
+  font-size: 15px;
+  width: 150px;
+  padding: 5px 10px;
+}
+
+fieldset {
+  border-color: #eee;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+legend {
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+button {
+  text-transform: uppercase;
+}

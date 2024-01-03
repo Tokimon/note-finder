@@ -1,0 +1,18 @@
+.Note {
+  font-size: 10rem;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  width: 3em;
+  margin: 40px auto;
+  position: relative;
+}
+
+.Precision {
+  font-size: 0.1em;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #a80004;
+}
